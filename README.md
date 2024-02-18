@@ -12,6 +12,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Inside transformations dynamically generated routes consist of updated routes
 - Also transformation routes consist of **add** url parameters
 - Created all the pages components for these specific routes
+- Clerk Installation for User Management , Authentication
+- Setup Clerk Authentication of application
+- Created Signin & Signup folder to consist of Optional catch-all route segment(Dynamic routes)
+- UserButton added to HomePage to check if user is logged in
+- changes in .env.local file
+- 
 ## Getting Started
 
 First, run the development server:
