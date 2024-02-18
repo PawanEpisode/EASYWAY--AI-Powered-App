@@ -21,7 +21,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Implemented Layout Section for Sidebar and Mobile Navigation
 - Two Different Components Created from scratch
 - Created constants folder at the root of file structure for constants variables.
-- 
+- Installed mongodb and mongoose for database management
+- a folder called **database** created inside lib folder of root, inside dataabse, the root file is mongoose.ts setting up the connection from database, also implemented cached connecton check. 
+- Created models for our database of the application- image, user, transaction
 ## Getting Started
 
 First, run the development server:
