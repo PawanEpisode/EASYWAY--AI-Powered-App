@@ -17,6 +17,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Created Signin & Signup folder to consist of Optional catch-all route segment(Dynamic routes)
 - UserButton added to HomePage to check if user is logged in
 - changes in .env.local file
+- Installed different shadcn ui components like Buttons, Sheet .
+- Implemented Layout Section for Sidebar and Mobile Navigation
+- Two Different Components Created from scratch
+- Created constants folder at the root of file structure for constants variables.
 - 
 ## Getting Started
 
