@@ -26,6 +26,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Created models for our database of the application- image, user, transaction
 - Using Server Actions, when creating user, we sync Clerks user data to our backend using something known as webhook
 - CRUD functionality for user actions meaning creating , viewing , updating and deleting users
+- Implementing route.ts for CRUD operations. 
+- Added utility folder for utilities files and functions
+- created user actions for CRUD operations
+- defined all types for type checking each variable and component
+- webhooks added to sync data with clerk 
+- middleware updated
 ## Getting Started
 
 First, run the development server:
