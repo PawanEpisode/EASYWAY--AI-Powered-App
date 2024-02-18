@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# TimePeriod
+
+- Initialized repository using Nextjs, Typescript, Tailwin css, Shadcn ui, eslint etc. 
+- Created File structure for application , using App router in nextjs, dynamic routes. 
+- Created Route Groups - (auth) and (root)
+- Inside (auth) , There is a file layout.tsx which consist of routing  for authentication of the application
+- Inside (root) , We have created 3 more nested routes namely - credits, profile, transformations;
+- credits and profile are routes pages;
+- transormations route consist of dynamic routes and have **id** as dynamic route variable
+- Inside transformations dynamically generated routes consist of updated routes
+- Also transformation routes consist of **add** url parameters
+- Created all the pages components for these specific routes
 ## Getting Started
 
 First, run the development server:
