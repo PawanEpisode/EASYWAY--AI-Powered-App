@@ -35,7 +35,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - User can create stuffs, user can add new image transformations, creating the add image form
 - Created Header component for Transformation Page
 - Header Component reused inside AddTransformationPage component .
-- 
+- TransformationForm component implemented 
+- Building forms with React Hook Form and Zod
+- Customfield component implemented for reusing inside the form component
+- Installed Shadcn UI component implements namely - form , input, labels, select
 ## Getting Started
 
 First, run the development server:
