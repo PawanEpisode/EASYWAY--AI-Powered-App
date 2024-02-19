@@ -32,6 +32,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - defined all types for type checking each variable and component
 - webhooks added to sync data with clerk 
 - middleware updated
+- User can create stuffs, user can add new image transformations, creating the add image form
+- Created Header component for Transformation Page
+- Header Component reused inside AddTransformationPage component .
+- 
 ## Getting Started
 
 First, run the development server:
