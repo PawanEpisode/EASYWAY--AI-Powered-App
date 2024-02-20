@@ -39,6 +39,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Building forms with React Hook Form and Zod
 - Customfield component implemented for reusing inside the form component
 - Installed Shadcn UI component implements namely - form , input, labels, select
+- How zod works, spcify different validations, How react-hook form works, rendering different fields inside a custom field component, completely functional form using shadcn, zod and react-hook form.
+- Installed next-cloudinary for nextjs application.
+- Modified the cloudinary profile for specific usecases on cloudinary platform.
+- Toaster added in root layout.tsx.
+- Created MediaUploader component to handle media upload using cloudinary components.
+- Added media uploa and showing code in transformationForm component.
+- using shadcn UI toaster component
 ## Getting Started
 
 First, run the development server:
