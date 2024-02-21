@@ -44,8 +44,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Modified the cloudinary profile for specific usecases on cloudinary platform.
 - Toaster added in root layout.tsx.
 - Created MediaUploader component to handle media upload using cloudinary components.
-- Added media uploa and showing code in transformationForm component.
+- Added media upload and showing code in transformationForm component.
 - using shadcn UI toaster component
+- Implemented TransformedImage component
+- Working with Image server Action
+- installed alert-dialog component from shadcn UI
+- Implemented InsufficientCreditsModal component using alert-dialog component
+- Changes in TransformationForm component - creditFee dynamic varaible used, onSubmit handler implementation
+- Adding and updating the image in database
+- Updating whole credits whenever user uses any of the transformation
+- Created actions functions in image.actions.ts file namely - addImage, updateImage, deleteImage, getImageById
 ## Getting Started
 
 First, run the development server:
