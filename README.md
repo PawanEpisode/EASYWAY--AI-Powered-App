@@ -54,6 +54,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Adding and updating the image in database
 - Updating whole credits whenever user uses any of the transformation
 - Created actions functions in image.actions.ts file namely - addImage, updateImage, deleteImage, getImageById
+- Home Page implementaion - Hero section, Hero links, Search implementation, Images result using search and pagination
+- Components implementaion - Home component, Collection, Search
+- Images server action - Get all images action implementation (images.actions.ts)
+- Shdacn UI Pagination component installed & implemented
+- Card Component created inside Collection Component
+- Using useRouter for routing actions like replacing the url & redirecting in the Search component using the params in the url without scroll and refresh functionality
 ## Getting Started
 
 First, run the development server:
