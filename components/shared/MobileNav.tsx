@@ -15,10 +15,11 @@ const MobileNav = () => {
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
         <Image
-          src="/assets/images/logo-text.svg"
+        className="rounded-full w-2/3"
+          src="/assets/images/huge.png"
           alt="logo"
-          width={180}
-          height={28}
+          width={100}
+          height={2}
         />
       </Link>
 
