@@ -15,6 +15,8 @@ const Credits = async () => {
 
   const user = await getUserById(userId);
 
+  if(!user) return
+
   return (
     <>
       <Header

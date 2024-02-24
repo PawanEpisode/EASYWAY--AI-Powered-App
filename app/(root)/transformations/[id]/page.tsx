@@ -14,6 +14,8 @@ const ImageDetails = async ({ params: { id } }: SearchParamProps) => {
 
   const image = await getImageById(id);
 
+  if(!image) return;
+
   return (
     <>
       <Header title={image.title} />
