@@ -60,6 +60,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Shdacn UI Pagination component installed & implemented
 - Card Component created inside Collection Component
 - Using useRouter for routing actions like replacing the url & redirecting in the Search component using the params in the url without scroll and refresh functionality
+- Configuration updated in next config file for images so that it can host the images from cloudinary
+- Transformation Page implemented for each of the transformations images. 
+- Also update component implementation of transformation Page.
+- Delete Confirmation Component implementation
 ## Getting Started
 
 First, run the development server:
