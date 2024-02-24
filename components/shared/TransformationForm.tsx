@@ -164,19 +164,24 @@ const TransformationForm = ({
         return onChangeField(value);
     };
 
-    const onInputChangeHandler = (fieldName: string, value: string, type: string, onChangeField: (value: string) => void) => {
-        debounce(() => {
+    const onInputChangeHandler = (
+      fieldName: string,
+      value: string,
+      type: string,
+      onChangeField: (value: string) => void
+    ) => {
+      debounce(() => {
         setNewTransformation((prevState: any) => ({
-            ...prevState,
-            [type]: {
+          ...prevState,
+          [type]: {
             ...prevState?.[type],
-            [fieldName === 'prompt' ? 'prompt' : 'to' ]: value 
-            }
-        }))
-        }, 1000)();
-        
-        return onChangeField(value)
-    }
+            [fieldName === "prompt" ? "prompt" : "to"]: value,
+          },
+        }));
+      }, 1000)();
+
+      return onChangeField(value);
+    };
 
     // TODO Return to upodateCredits
     const onTransformHandler = async () => {
