@@ -64,6 +64,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Transformation Page implemented for each of the transformations images. 
 - Also update component implementation of transformation Page.
 - Delete Confirmation Component implementation
+- getUserimages server action implemented in image.actions.ts 
+- Installed libraries stripe and @stripe/stripe-js to work around stripe integration in our application
+- Created Credits Page containing different subscription models for credits.
+- Created Profile Page which contains credits, transformation done, collections.
+- Webhook Implementation of strip integration for checkout sessions. 
+- Configured Stripe on the stripe platform to work for the application.
+- Checkout Button component implementation
+- Created transaction server actions in transaction.actions.ts filenamely - checkoutCredits , createTransaction
 ## Getting Started
 
 First, run the development server:
