@@ -72,6 +72,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Configured Stripe on the stripe platform to work for the application.
 - Checkout Button component implementation
 - Created transaction server actions in transaction.actions.ts filenamely - checkoutCredits , createTransaction
+- Refactoring for the code Repository
+- Added public routes inside middleware.ts 
+- Changed heading title to Easyway
+- Sidebar Logo changed in both desktop and mobile view component
+- changed mongoose Db name to original- easyway
+- Added logo image huge.png
 ## Getting Started
 
 First, run the development server:
