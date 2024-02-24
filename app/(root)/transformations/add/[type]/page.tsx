@@ -13,7 +13,7 @@ const AddTransformationTypePage = async ({ params: { type}}: SearchParamProps) =
 
   const user = await getUserById(userId);
   console.log('trans'+ type,user, userId)
-  if(!user) redirect('/sign-in')
+  if(!user) redirect('/sign-up')
 
   return (
     <>

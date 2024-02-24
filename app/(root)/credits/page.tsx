@@ -15,7 +15,7 @@ const Credits = async () => {
 
   const user = await getUserById(userId);
 
-  if(!user) return
+  if(!user) redirect("/sign-up");
 
   return (
     <>

@@ -15,7 +15,7 @@ const Page = async ({ params: { id } }: SearchParamProps) => {
   const user = await getUserById(userId);
   const image = await getImageById(id);
 
-  if(!user || !image) return
+  if(!user || !image) redirect("/sign-up");
 
   const transformation =
     transformationTypes[image.transformationType as TransformationTypeKey];

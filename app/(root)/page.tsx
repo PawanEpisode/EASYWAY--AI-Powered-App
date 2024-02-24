@@ -10,15 +10,13 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 
   const images = await getAllImages({ page, searchQuery});
 
-  if(!images) return
-
   return (
     <>
       <section className="home">
         <h1 className="home-heading">
           Unleash Your Creative Vision with Easyway
         </h1>
-        <ul className="flex-center w-full gap-20">
+        {images && <ul className="flex-center w-full gap-20">
           {navLinks.slice(1, 5).map((link) => (
             <Link
               key={link.route}
@@ -31,7 +29,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
               <p className="p-14-medium text-center text-white">{link.label}</p>
             </Link>
           ))}
-        </ul>
+        </ul>}
       </section>
 
       <section className="sm:mt-12">
