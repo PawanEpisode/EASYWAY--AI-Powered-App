@@ -11,12 +11,12 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
   const page = Number(searchParams?.page) || 1;
   const { userId } = auth();
 
-  if (!userId) redirect("/sign-in");
+  if (!userId) return redirect("/sign-in");
 
   const user = await getUserById(userId);
   const images = await getUserImages({ page, userId: user._id });
 
-  if(!user || !images) redirect("/sign-up");
+  if(!user || !images) return redirect("/sign-up");
 
   return (
     <>
@@ -33,7 +33,7 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
               height={50}
               className="size-9 md:size-12"
             />
-            <h2 className="h2-bold text-dark-600">{user.creditBalance}</h2>
+            <h2 className="h2-bold text-dark-600">{user?.creditBalance}</h2>
           </div>
         </div>
 

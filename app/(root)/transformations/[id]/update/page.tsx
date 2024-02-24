@@ -10,12 +10,12 @@ import { getImageById } from "@/lib/actions/image.actions";
 const Page = async ({ params: { id } }: SearchParamProps) => {
   const { userId } = auth();
 
-  if (!userId) redirect("/sign-in");
+  if (!userId) return redirect("/sign-in");
 
   const user = await getUserById(userId);
   const image = await getImageById(id);
 
-  if(!user || !image) redirect("/sign-up");
+  if(!user || !image) return redirect("/sign-up");
 
   const transformation =
     transformationTypes[image.transformationType as TransformationTypeKey];
